@@ -34,6 +34,7 @@ Plug 'preservim/vim-colors-pencil'
 
 Plug 'tpope/vim-sleuth'
 Plug 'darrikonn/vim-gofmt'
+Plug 'hashivim/vim-terraform'
 
 Plug 'rstacruz/vim-closer'
 Plug 'tpope/vim-commentary'
