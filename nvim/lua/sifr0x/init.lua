@@ -52,7 +52,6 @@ require'lspconfig'.gopls.setup {
 	capabilities = capabilities,
 }
 
-
 require'lspconfig'.terraformls.setup {
 	capabilities = capabilities,
 }

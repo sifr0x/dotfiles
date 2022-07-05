@@ -32,6 +32,7 @@ Plug 'ThePrimeagen/harpoon'
 
 Plug 'preservim/vim-colors-pencil'
 
+Plug 'tpope/vim-abolish'
 Plug 'tpope/vim-sleuth'
 Plug 'darrikonn/vim-gofmt'
 Plug 'hashivim/vim-terraform'
