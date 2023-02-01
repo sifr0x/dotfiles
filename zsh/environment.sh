@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
 
-source ${HOME}/.sifr0x_tooling
+source ${HOME}/.sifr0x_dotfiles
 
 # Set default directory paths
-export TOOLING_BIN_DIR="${TOOLING_BASE_DIR}/bin"
-export TOOLING_ZSH_DIR="${TOOLING_BASE_DIR}/zsh"
+export TOOLING_BIN_DIR="${DOTFILES_BASE_DIR}/bin"
+export TOOLING_ZSH_DIR="${DOTFILES_BASE_DIR}/zsh"
 
 export GPG_TTY=`tty`
 
 source ${TOOLING_ZSH_DIR}/zsh.sh
 
-alias _env_reload="source ${TOOLING_BASE_DIR}/zsh/environment.sh"
+alias _env_reload="source ${DOTFILES_BASE_DIR}/zsh/environment.sh"
 
 # Load additional aliasses
 for file in $(find ${TOOLING_ZSH_DIR}/aliasses -type f); do
