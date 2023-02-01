@@ -16,6 +16,7 @@ set colorcolumn=80
 set signcolumn=yes
 set list
 set listchars=tab:>-,trail:·,nbsp:·,extends:>,precedes:<
+set clipboard=unnamed
 
 call plug#begin('~/.vim/plugged')
 Plug 'neovim/nvim-lspconfig'
@@ -24,6 +25,7 @@ Plug 'hrsh7th/nvim-cmp'
 Plug 'L3MON4D3/LuaSnip'
 Plug 'onsails/lspkind-nvim'
 Plug 'glepnir/lspsaga.nvim'
+Plug 'neomake/neomake'
 
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
@@ -42,6 +44,7 @@ Plug 'tpope/vim-commentary'
 
 Plug 'AndrewRadev/switch.vim'
 Plug 'tpope/vim-speeddating'
+Plug 'endaaman/vim-case-master'
 
 " Git stuff
 Plug 'tpope/vim-fugitive'
@@ -53,6 +56,10 @@ colorscheme pencil
 
 let mapleader = " "
 nnoremap <leader>ps :lua require('telescope.builtin').grep_string({ search = vim.fn.input("Grep For > ")})<CR>
+
+" snek
+"nnoremap <silent> <C-w> :<C-u>CaseMasterRotateCase<CR>
+"vnoremap <silent> <C-w> :<C-u>CaseMasterRotateCaseVisual<CR>
 
 " Terminal commands
 " ueoa is first through fourth finger left hand home row.
