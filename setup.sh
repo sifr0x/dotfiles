@@ -21,4 +21,5 @@ ln -s $TMUX_CONF ~/.tmux.conf
 cat <<EOF >> ${HOME}/.zshrc
 source ${HOME}/.sifr0x_dotfiles
 source ${DOTFILES_BASE_DIR}/zsh/environment.sh
+source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme
 EOF
