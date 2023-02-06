@@ -9,6 +9,7 @@ tap "homebrew/core"
 tap "homebrew/services"
 
 tap "romkatv/powerlevel10k"
+tap "1password/tap"
 
 # Homebrew
 # https://github.com/Homebrew/brew/
@@ -29,16 +30,25 @@ brew "terraform-ls"
 brew "gopls"
 brew "wget"
 brew "jq"
+brew "node"
+brew "yarn"
+brew "argo"
 
 # homebrew-cask
 # https://github.com/caskroom/homebrew-cask
 cask "protonvpn"
 cask "1password"
+cask "1password/tap/1password-cli"
 cask "alfred"
+cask "todoist"
 cask "slack"
 cask "skype"
 cask "signal"
+cask "whatsapp"
 cask "tableplus"
+cask "dbngin"
 cask "rapidapi"
 cask "wireshark"
 cask "vlc"
+cask "google-cloud-sdk"
+cask "keepingyouawake"
